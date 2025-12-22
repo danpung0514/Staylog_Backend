@@ -113,3 +113,7 @@
 | <img src="https://github.com/infreeJ.png" width="50"> | **이*혁** | [@infreeJ](https://github.com/infreeJ) | 실시간 알림<br/>할인 쿠폰<br/>회원가입 |
 | <img src="https://github.com/izero33.png" width="50"> | **정*영** | [@izero33](https://github.com/izero33) | 객실 상세페이지<br/>카카오 지도 API<br/>예약 캘린더 |
 | <img src="https://github.com/cshchun.png" width="50"> | **천*현** | [@cshchun](https://github.com/cshchun) | 관리자 페이지<br/>객실 등록/수정 |
+
+<a href="https://github.com/Acorn-Team-404/Staylog_Backend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Acorn-Team-404/Staylog_Backend" />
+</a>
