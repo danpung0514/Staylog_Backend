@@ -1,20 +1,18 @@
 <div align="center">
-<h2>Staylog</h2>
-리뷰형 커뮤니티 기반 숙소 예약 웹 서비스
+  <h1>🏠 Staylog</h1>
+  <strong>리뷰형 커뮤니티 기반 숙소 예약 웹 서비스</strong>
+  <p>사용자가 여행지와 관련된 리뷰와 정보를 공유하고, 최적의 숙소를 탐색 및 예약할 수 있는 통합 플랫폼입니다.</p>
 </div>
 
 ## 📌 개요
 ![main_page](https://github.com/user-attachments/assets/5fb4c1d0-c329-4726-b989-e99f77df0582)
 
-> 사용자가 여행지와 관련된 리뷰와 정보를 공유할 수 있고 숙소를 탐색하고 예약할 수 있는 리뷰 기반 커뮤니티 웹 서비스 입니다.
-
 - **프로젝트 팀 구성**: 백엔드, 프론트엔드 풀스택 개발자 9명
-- **프로젝트 기간**: 2025.10.13 ~ 2025.11.12 (추가 개선 진행중)
-
-## 🔗 링크
-- [**Backend Repository**](https://github.com/Acorn-Team-404/Staylog_Backend)
-- [**FrontEnd Repository**](https://github.com/Acorn-Team-404/Staylog_Frontend)
-- [**배포 링크**](https://staylog.store)
+- **프로젝트 기간**: 2025.10.13 ~ 2025.11.12 (추가 개선 진행 중)
+- **주요 링크**: 
+  [**Backend**](https://github.com/Acorn-Team-404/Staylog_Backend) | 
+  [**FrontEnd**](https://github.com/Acorn-Team-404/Staylog_Frontend) | 
+  [**배포 사이트**](https://staylog.store)
 
 ---
 
@@ -107,7 +105,7 @@
 
 ## 📈 향후 개선 사항
 - **고아 이미지 관리**: 에디터 작성 중 중단된 이미지를 처리하기 위해 스케줄러 기반의 자동 삭제 로직 추가 예정.
-- **썸네일 이미지**: 썸네일을 생성하여 이미지 로딩 최적화 예정.
+- **썸네일 최적화**: 미디어 쿼리에 따른 이미지 리사이징 및 썸네일 생성 로직 도입 예정.
 
 ---
 ## 👥 팀원 소개 (Contributors)
