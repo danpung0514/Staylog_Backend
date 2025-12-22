@@ -104,7 +104,7 @@
 
 | 프로필 | 이름 | GitHub | 담당 파트 |
 | :--: | :-- | :--: | :-- |
-| <img src="https://github.com/danpung0514.png" width="50"> | **고윤제(팀장)** | [@danpung0514](https://github.com/danpung0514) | Git 전략 수립<br/>CICD 환격 구축<br/>이미지 업로드<br/>객실 등록/수정 |
+| <img src="https://github.com/danpung0514.png" width="50"> | **고윤제(팀장)** | [@danpung0514](https://github.com/danpung0514) | Git 전략 수립<br/>CICD 환경 구축<br/>이미지 업로드<br/>객실 등록/수정 |
 | <img src="https://github.com/danjae1.png" width="50"> | **임*호(부팀장)** | [@danjae1](https://github.com/danjae1) | 공통코드 테이블 설계<br/>응답 구조 단일화<br/>로그인, 토큰 인증/인가<br/>외부 api 연동 결제 기능, 숙소 검색 기능 |
 | <img src="https://github.com/Blossornn.png" width="50"> | **고*석** | [@Blossornn](https://github.com/Blossornn) | 관리자 페이지<br/>예약현황 관리 |
 | <img src="https://github.com/Zevvdev.png" width="50"> | **김*은** | [@Zevvdev](https://github.com/Zevvdev) | 리뷰 게시판<br/>저널 게시판 |
