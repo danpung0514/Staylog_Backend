@@ -18,7 +18,7 @@ public class RestTemplateConfig {
     public RestTemplate restTemplate(RestTemplateBuilder builder) {
         return builder
                 .setConnectTimeout(Duration.ofSeconds(5))   // 연결 타임아웃 5초
-                .setReadTimeout(Duration.ofSeconds(10))     // 읽기 타임아웃 10초
+                .setReadTimeout(Duration.ofSeconds(20))     // 읽기 타임아웃 20초 (Toss 결제 API용)
                 .build();
     }
 }

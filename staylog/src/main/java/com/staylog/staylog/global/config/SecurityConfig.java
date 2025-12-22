@@ -76,6 +76,18 @@ public class SecurityConfig {
                         // Email (로그인 필요 없음)
                         .requestMatchers(HttpMethod.POST, "/v1/mail-send", "/v1/mail-check").permitAll()
 
+                        // Home (로그인 필요 없음)
+                        .requestMatchers(HttpMethod.GET, "/v1/home").permitAll()
+
+                        // Common Codes (로그인 필요 없음)
+                        .requestMatchers(HttpMethod.GET, "/v1/common-codes/**").permitAll()
+
+                        // Images (로그인 필요 없음 - 조회만)
+                        .requestMatchers(HttpMethod.GET, "/v1/images/**").permitAll()
+
+                        // Search (로그인 필요 없음)
+                        .requestMatchers(HttpMethod.GET, "/v1/search/**").permitAll()
+
                         // Board (로그인 필요 없음 - GET/POST 일부)
                         .requestMatchers(HttpMethod.POST, "/v1/boardList").permitAll()
                         .requestMatchers(HttpMethod.GET,
@@ -85,9 +97,6 @@ public class SecurityConfig {
                                 "/review",
                                 "/review/*"
                         ).permitAll()
-
-                        // 정적 리소스 이미지 파일 허용
-                        .requestMatchers(HttpMethod.GET, "/images/**").permitAll() // 👈 403 에러 해결!
 
                         // VIP 전용
                         .requestMatchers("/form/journal").hasAuthority("VIP")
@@ -116,6 +125,8 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.PUT, "/v1/images").authenticated() // 이미지 일괄 업데이트
                         .requestMatchers(HttpMethod.DELETE, "/v1/image/*").authenticated() // 단일 이미지 삭제
                         .requestMatchers(HttpMethod.DELETE, "/v1/images/*/*").authenticated() // 대상의 다중 이미지 삭제
+                        // Payment (결제 인증 필수)
+                        .requestMatchers("/v1/payments/**").authenticated()
 
                         // 나머지 모든 요청
                         .anyRequest().authenticated()
