@@ -23,7 +23,7 @@
 
 Staylog는 **비용 효율성**과 **보안**의 균형을 맞추기 위해 **컨테이너 기반(Container-Native)** 환경과 **EC2 단일 인스턴스** 구조를 채택했습니다.
 
-<img width="1080" height="480" alt="Subby Architecture ENG" src="https://github.com/user-attachments/assets/1f9219f9-d854-4f80-bc2a-ae6afb220619" />
+<img width="880" height="480" alt="edit_Staylog Architecture" src="https://github.com/user-attachments/assets/c799308b-4368-4442-ab0b-7d624daa9e6a" />
 
 - **컨테이너 격리 네트워크 (Docker Network)**: 웹(Nginx), 앱(Spring Boot), 데이터베이스(Oracle)를 내부 사설망(Private Bridge)으로 격리하여, 외부에서의 불필요한 DB 직접 접근을 원천 차단하고 컨테이너 간의 보안 통신을 보장.
 
