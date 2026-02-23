@@ -11,11 +11,11 @@
 ![main_page](https://github.com/user-attachments/assets/5fb4c1d0-c329-4726-b989-e99f77df0582)
 
 - **프로젝트 팀 구성**: 9명 (백엔드, 프론트엔드 풀스택 개발자)
-- **프로젝트 기간**: 2025.10.13 ~ 2025.11.12 (추가 개선 진행 중)
+- **프로젝트 기간**: 2025.10.13 ~ 2025.11.12
 - **주요 링크**: 
   [**Backend**](https://github.com/Acorn-Team-404/Staylog_Backend) | 
   [**FrontEnd**](https://github.com/Acorn-Team-404/Staylog_Frontend) | 
-  [**배포 사이트**](https://staylog.store)
+  [**배포 사이트(2026-02-15 배포 중단)**]()
 
 ---
 
